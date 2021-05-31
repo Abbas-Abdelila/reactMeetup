@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  height: 80px;
+  background-color: rgb(148, 48, 48);
+  padding: 20px;
+}
+#title {
+  font-weight: 700;
+  font-size: 1.3rem !important;
+  color: white;
+}
+
+.nav_bar {
+  background-color: rgb(148, 48, 48);
+}
+
+.nav_bar_lists {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  background-color: rgb(148, 48, 48);
+}
+
+.list {
+  list-style-type: none;
+  background-color: rgb(148, 48, 48);
+  margin-top: 5px;
+}
+.links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.651);
+  font-size: 1.033rem;
+  background-color: rgb(148, 48, 48);
+}
+.links:hover {
+  color: white;
+}
